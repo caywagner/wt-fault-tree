@@ -1,0 +1,6 @@
+tag,descripion,gate_type,children,notes
+g001,component 1,AND,g003 e003,
+g002,component 2,AND,g004 e006,
+g003,component 3,OR,e001 e002,
+g004,component 4,OR,e004 e005,
+g005,component 5,OR,g001 g002,

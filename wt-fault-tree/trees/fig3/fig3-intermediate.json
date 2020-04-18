@@ -1,0 +1,52 @@
+[
+  {
+    "tag":"g001",
+    "descripion":"component 1",
+    "gate_type":"AND",
+    "children":[
+      "g003",
+      "e003"
+    ],
+    "notes":null
+  },
+  {
+    "tag":"g002",
+    "descripion":"component 2",
+    "gate_type":"AND",
+    "children":[
+      "g004",
+      "e006"
+    ],
+    "notes":null
+  },
+  {
+    "tag":"g003",
+    "descripion":"component 3",
+    "gate_type":"OR",
+    "children":[
+      "e001",
+      "e002"
+    ],
+    "notes":null
+  },
+  {
+    "tag":"g004",
+    "descripion":"component 4",
+    "gate_type":"OR",
+    "children":[
+      "e004",
+      "e005"
+    ],
+    "notes":null
+  },
+  {
+    "tag":"g005",
+    "descripion":"component 5",
+    "gate_type":"OR",
+    "children":[
+      "g001",
+      "g002"
+    ],
+    "notes":null
+  }
+]

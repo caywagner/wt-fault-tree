@@ -1,0 +1,7 @@
+tag,description,prob_type,prob_args,notes
+e001,event 1,constant,0.001,
+e002,event 2,constant,0.001,
+e003,event 3,constant,0.001,
+e004,event 4,constant,0.001,
+e005,event 5,constant,0.001,
+e006,event 6,constant,0.001,
