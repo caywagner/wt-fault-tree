@@ -6,7 +6,9 @@
     "prob_args":[
       0.001
     ],
-    "notes":null
+    "notes":null,
+    "state":true,
+    "t0":0
   },
   {
     "tag":"e002",
@@ -15,7 +17,9 @@
     "prob_args":[
       0.001
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"e003",
@@ -24,7 +28,9 @@
     "prob_args":[
       0.001
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"e004",
@@ -33,7 +39,9 @@
     "prob_args":[
       0.001
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"e005",
@@ -42,7 +50,9 @@
     "prob_args":[
       0.001
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"e006",
@@ -51,6 +61,8 @@
     "prob_args":[
       0.001
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   }
 ]

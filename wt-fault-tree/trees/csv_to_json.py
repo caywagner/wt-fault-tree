@@ -35,6 +35,11 @@ def transform(df):
             lambda x: [i for i in str(x).split()]
         )
 
+    # set up additional columns
+    df['state'] = False  # True if event has occured 
+    df['t0'] = 0  # time reset
+
+
 @click.command()
 @click.option('--csv', type=click.File('r'), required=True,
               help='Identify csv file to be converted.')

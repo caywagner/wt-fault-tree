@@ -7,7 +7,9 @@
       "g003",
       "e003"
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"g002",
@@ -17,7 +19,9 @@
       "g004",
       "e006"
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"g003",
@@ -27,7 +31,9 @@
       "e001",
       "e002"
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"g004",
@@ -37,7 +43,9 @@
       "e004",
       "e005"
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   },
   {
     "tag":"g005",
@@ -47,6 +55,8 @@
       "g001",
       "g002"
     ],
-    "notes":null
+    "notes":null,
+    "state":false,
+    "t0":0
   }
 ]
