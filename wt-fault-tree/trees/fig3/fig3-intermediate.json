@@ -28,8 +28,8 @@
     "descripion":"component 3",
     "gate_type":"OR",
     "children":[
-      "e001",
-      "e002"
+      "g004",
+      "g005"
     ],
     "notes":null,
     "state":false,
@@ -52,8 +52,8 @@
     "descripion":"component 5",
     "gate_type":"OR",
     "children":[
-      "g001",
-      "g002"
+      "e001",
+      "e002"
     ],
     "notes":null,
     "state":false,
