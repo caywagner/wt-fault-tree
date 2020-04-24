@@ -1,0 +1,68 @@
+[
+  {
+    "tag":"e001",
+    "description":"event 1",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "notes":null,
+    "state":true,
+    "t0":0
+  },
+  {
+    "tag":"e002",
+    "description":"event 2",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "notes":null,
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e003",
+    "description":"event 3",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "notes":null,
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e004",
+    "description":"event 4",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "notes":null,
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e005",
+    "description":"event 5",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "notes":null,
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e006",
+    "description":"event 6",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "notes":null,
+    "state":false,
+    "t0":0
+  }
+]
