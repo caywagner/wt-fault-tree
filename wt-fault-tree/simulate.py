@@ -54,13 +54,25 @@ def cal_state(state_list, logic_type):
 def roll_basic(event, messages):
     """Handle different sorts of probabilies."""
     if event["prob_type"] == "constant":
-        if random.random() < event["prob_args"][0]:
+        p = event["prob_args"][0]
+        if random.random() < p:
             event["state"] = True
             # print(event)
             # TODO add to messages
             return generate_error_message(event, messages)
         else:
             return;
+    elif event["prob_type"] == "linear":
+        # P(t) = m(t_curr-t_0)
+        t0 = event["t0"]
+        m = event["prob_args"][0]
+        p = m*(time - t0)
+        if random.random() < p:
+            event["state"] = True
+            # print(event)
+            # TODO add to messages
+            return generate_error_message(event, messages)
+
 
 
     # TODO handle prob_type exponential, etc
