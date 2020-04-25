@@ -20,7 +20,8 @@ class Fault_Tree:
         self.intermediate = {}
         self.intermediate_keys = []
 
-
+        self.cost = 0
+        self.profit = 0
         self.messages_send = []
         self.messages_recv = []
 
@@ -39,6 +40,18 @@ class Fault_Tree:
         self.intermediate_keys = list(self.intermediate.keys())
         self.intermediate_keys = sorted(self.intermediate_keys, reverse=True)
 
+    def repair(self):
+        for repair_item in self.messages_recv:
+            self.cost = self.cost + repair_item['cost']
+            repair_tag = repair_item['tag']
+            if 'e' in repair_tag:
+                self.basic[repair_tag]['state'] = False
+            elif 'g' in repair_tag:
+                self.intermediate[repair_tag]['state'] = False
+            else:
+                raise TypeError
+        self.messages_recv.clear()
+
 
     def recv_messages(self, message):
         """Recieve messages from manager."""
@@ -47,7 +60,8 @@ class Fault_Tree:
 
     def get_messages(self):
         """Send messages to manager."""
-        temp = self.messages_send
+        temp = deepcopy(self.messages_send)
+        print("$$$$",temp)
         self.messages_send.clear()
 
         return temp
@@ -61,9 +75,9 @@ class Fault_Tree:
 
         self.messages_send.append(event_new)
 
-        print(event_new)
-        if __debug__:
-            print(event_new)
+        # print(event_new)
+        #if __debug__:
+            #print(event_new)
 
     def get_status_list(self, children):
         state_list = []
@@ -130,6 +144,11 @@ class Fault_Tree:
         if event_state:
             self.generate_error_message(event)
 
+
+    def count_profit(self):
+        # TODO add to the self.profit
+        return
+
     def iterate(self, freq_num = 1):
         """Iterate n timesteps."""
         for i in range(freq_num):
@@ -140,6 +159,8 @@ class Fault_Tree:
             # step intermediate events forward
             for event in self.intermediate_keys:
                 self.check_intermediate(self.intermediate[event])
+
+            self.count_profit()
             # TODO handle repair messages (messages_recv)
 
             # TODO iterate basic events
