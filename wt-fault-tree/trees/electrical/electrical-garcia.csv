@@ -1,0 +1,18 @@
+tag,description,prob_type,prob_args,cost,notes
+e048,Abnormal vibration G,exponential,0.001,100,Garcia Marquez all exponential all arbitrary
+e049,Cracks,constant,0.001,100,Garcia Marquez all exponential all arbitrary
+e050,Imbalance,exponential,0.001,100,Garcia Marquez all exponential all arbitrary
+e051,Asymmetry,exponential,0.001,100,Garcia Marquez all exponential all arbitrary
+e052,Air-Gap eccentricities,linear,0.001,100,Garcia Marquez all exponential all arbitrary
+e053,Broken bars,linear,0.001,100,Garcia Marquez all exponential all arbitrary
+e054,Dynamic eccentricity,linear,0.001,100,Garcia Marquez all exponential all arbitrary
+e055,Sensor Ta error,constant,0.001,100,Garcia Marquez all exponential all arbitrary
+e056,Temperature above limit,exponential,0.001,100,Garcia Marquez all exponential all arbitrary
+e057,Short circuit (generator),constant,0.001,100,Garcia Marquez all exponential all arbitrary
+e058,Open circuit (generator),constant,0.001,100,Garcia Marquez all exponential all arbitrary
+e059,Short circuit (electronics),constant,0.001,100,Garcia Marquez all exponential all arbitrary
+e060,Open circuit (electronics),constant,0.001,100,Garcia Marquez all exponential all arbitrary
+e061,Gate drive circuit,linear,0.001,100,Garcia Marquez all exponential all arbitrary
+e062,Corrosion,exponential,0.001,100,Garcia Marquez all exponential all arbitrary
+e063,Dirt,exponential,0.001,100,Garcia Marquez all exponential all arbitrary
+e064,Terminals damage,linear,0.001,100,Garcia Marquez all exponential all arbitrary

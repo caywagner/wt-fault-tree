@@ -1,0 +1,170 @@
+[
+  {
+    "tag":"e001",
+    "description":"yaw motor failure",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e002",
+    "description":"abnormal vibration I",
+    "prob_type":"linear",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e003",
+    "description":"abnormal vibration II",
+    "prob_type":"linear",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e004",
+    "description":"Cracks in concrete base",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e005",
+    "description":"Welding damage",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e006",
+    "description":"Corrosion",
+    "prob_type":"linear",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e007",
+    "description":"Lossen studs in joining foundation and first section",
+    "prob_type":"linear",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e008",
+    "description":"Loosen bolts in joining different sections",
+    "prob_type":"linear",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e009",
+    "description":"Gaps in the foundation section",
+    "prob_type":"exponential",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e010",
+    "description":"Vane damage",
+    "prob_type":"exponential",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e011",
+    "description":"Anemometer damage",
+    "prob_type":"exponential",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e012",
+    "description":"High wind speed \/ turbulance",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e013",
+    "description":"No power from supply generator",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e014",
+    "description":"No power supply from grid ",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all exponential all arbitrary",
+    "state":false,
+    "t0":0
+  }
+]
