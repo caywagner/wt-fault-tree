@@ -1,0 +1,244 @@
+[
+  {
+    "tag":"g002",
+    "descripion":"blades subsystem",
+    "gate_type":"OR",
+    "children":[
+      "g013",
+      "g025"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g013",
+    "descripion":"Severe blade failure",
+    "gate_type":"AND",
+    "children":[
+      "g014",
+      "e015"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g014",
+    "descripion":"Blade failure",
+    "gate_type":"OR",
+    "children":[
+      "g015",
+      "g016"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g015",
+    "descripion":"Pitch system failure",
+    "gate_type":"OR",
+    "children":[
+      "g017",
+      "e016",
+      "g018"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g016",
+    "descripion":"Structural failure of blades",
+    "gate_type":"AND",
+    "children":[
+      "g021",
+      "e024"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g017",
+    "descripion":"Hydraulic system failure",
+    "gate_type":"AND",
+    "children":[
+      "g019",
+      "e017"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g018",
+    "descripion":"Wrong blade angle",
+    "gate_type":"AND",
+    "children":[
+      "g020",
+      "e017"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g019",
+    "descripion":"Hydraulic system fault",
+    "gate_type":"OR",
+    "children":[
+      "e018",
+      "e019",
+      "e020",
+      "e021"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g020",
+    "descripion":"Meteorological unit",
+    "gate_type":"OR",
+    "children":[
+      "e022",
+      "e023"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g021",
+    "descripion":"Structural fault of blades",
+    "gate_type":"OR",
+    "children":[
+      "g022",
+      "e025",
+      "g023",
+      "g024"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g022",
+    "descripion":"Leading and trailing edges damage",
+    "gate_type":"OR",
+    "children":[
+      "e026",
+      "e027",
+      "e028",
+      "e029",
+      "e030"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g023",
+    "descripion":"Shell damage",
+    "gate_type":"OR",
+    "children":[
+      "e031",
+      "e032",
+      "e033"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g024",
+    "descripion":"Tip damage",
+    "gate_type":"OR",
+    "children":[
+      "e034",
+      "e035"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g025",
+    "descripion":"Rotor system failure",
+    "gate_type":"AND",
+    "children":[
+      "g026",
+      "e036"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g026",
+    "descripion":"Rotor system fault",
+    "gate_type":"OR",
+    "children":[
+      "g027",
+      "g028"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g027",
+    "descripion":"Rotor bearings fault",
+    "gate_type":"OR",
+    "children":[
+      "g029",
+      "e037"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g028",
+    "descripion":"Rotor hub fault",
+    "gate_type":"OR",
+    "children":[
+      "e043",
+      "g030",
+      "e044",
+      "e045"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g029",
+    "descripion":"Wear in bearings of the rotor",
+    "gate_type":"OR",
+    "children":[
+      "e038",
+      "e039",
+      "e040",
+      "e041",
+      "e042"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g030",
+    "descripion":"Imbalance of blade system",
+    "gate_type":"AND",
+    "children":[
+      "e046",
+      "e047"
+    ],
+    "notes":"Garcia Marquez blades",
+    "state":false,
+    "t0":0
+  }
+]

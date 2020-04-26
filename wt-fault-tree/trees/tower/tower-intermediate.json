@@ -1,0 +1,115 @@
+[
+  {
+    "tag":"g001",
+    "descripion":"foundation and tower subsystem",
+    "gate_type":"OR",
+    "children":[
+      "g005",
+      "g006"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g005",
+    "descripion":"yaw system failure",
+    "gate_type":"OR",
+    "children":[
+      "g007",
+      "g008"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g006",
+    "descripion":"structural failure ",
+    "gate_type":"AND",
+    "children":[
+      "g009",
+      "e012",
+      "g010"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g007",
+    "descripion":"yaw motor failure",
+    "gate_type":"AND",
+    "children":[
+      "e001",
+      "e003"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g008",
+    "descripion":"wrong yaw angle",
+    "gate_type":"AND",
+    "children":[
+      "g011",
+      "e003"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g009",
+    "descripion":"severe strucural fault (foundation and tower)",
+    "gate_type":"AND",
+    "children":[
+      "e002",
+      "g012"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g010",
+    "descripion":"no electric power for yaw motor",
+    "gate_type":"AND",
+    "children":[
+      "e013",
+      "e014"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g011",
+    "descripion":"meteorological unit failure",
+    "gate_type":"OR",
+    "children":[
+      "e010",
+      "e011"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g012",
+    "descripion":"structural fault (foundation and tower)",
+    "gate_type":"OR",
+    "children":[
+      "e004",
+      "e005",
+      "e006",
+      "e007",
+      "e008",
+      "e009"
+    ],
+    "notes":"Garcia Marquez tower and foundation",
+    "state":false,
+    "t0":0
+  }
+]

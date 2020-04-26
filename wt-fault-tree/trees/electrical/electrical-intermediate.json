@@ -1,0 +1,162 @@
+[
+  {
+    "tag":"g003",
+    "descripion":"Electrical subsystem failure",
+    "gate_type":"OR",
+    "children":[
+      "g031",
+      "g032"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g031",
+    "descripion":"Critical generator failure",
+    "gate_type":"AND",
+    "children":[
+      "g033",
+      "g034"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g032",
+    "descripion":"Power electronics and electric controls failure",
+    "gate_type":"AND",
+    "children":[
+      "g041",
+      "g042"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g033",
+    "descripion":"Mechanical failure (generator)",
+    "gate_type":"OR",
+    "children":[
+      "g035",
+      "g036"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g034",
+    "descripion":"Electrical failure (generator)",
+    "gate_type":"OR",
+    "children":[
+      "e057",
+      "e058"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g035",
+    "descripion":"Bearing generator failure",
+    "gate_type":"AND",
+    "children":[
+      "e048",
+      "g037"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g036",
+    "descripion":"Rotor and stator failure",
+    "gate_type":"AND",
+    "children":[
+      "g038",
+      "g039"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g037",
+    "descripion":"Bearing generator fault",
+    "gate_type":"OR",
+    "children":[
+      "e049",
+      "e050",
+      "e051"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g038",
+    "descripion":"Rotor and stator fault",
+    "gate_type":"OR",
+    "children":[
+      "e052",
+      "e053",
+      "e054"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g039",
+    "descripion":"Abnormal signals A",
+    "gate_type":"OR",
+    "children":[
+      "g040",
+      "e048"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g040",
+    "descripion":"Overheating generator",
+    "gate_type":"AND",
+    "children":[
+      "e055",
+      "e056"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g041",
+    "descripion":"Electrical fault (power electronics)",
+    "gate_type":"OR",
+    "children":[
+      "e059",
+      "e060",
+      "e061"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"g042",
+    "descripion":"Mechanical fault (power electronics)",
+    "gate_type":"OR",
+    "children":[
+      "e062",
+      "e063",
+      "e064"
+    ],
+    "notes":"Garcia Marquez electrical",
+    "state":false,
+    "t0":0
+  }
+]

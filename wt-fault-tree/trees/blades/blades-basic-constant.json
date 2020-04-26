@@ -1,0 +1,398 @@
+[
+  {
+    "tag":"e015",
+    "description":"high wind speed\/turbulance",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e016",
+    "description":"blade angle asymmetry",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e017",
+    "description":"abnormal vibration A",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e018",
+    "description":"hydrolic motor failure",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e019",
+    "description":"leakages in hydraulic system",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e020",
+    "description":"over pressure in hydraulic system",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e021",
+    "description":"corrosion in hydraulic system",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e022",
+    "description":"vane damage",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e023",
+    "description":"anemometer damage",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e024",
+    "description":"abnormal vibration B",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e025",
+    "description":"root cracks in the structure of blades ",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e026",
+    "description":"cracks in edges of blades",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e027",
+    "description":"erosion in edges of blades",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e028",
+    "description":"delamination in leading edges of blades",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e029",
+    "description":"delamination in trailing edges of blades",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e030",
+    "description":"debonding in edges of blades",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e031",
+    "description":"delamination in sgell",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e032",
+    "description":"crack with structural damage (shell)",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e033",
+    "description":"crack on the beam-shell joint",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e034",
+    "description":"open tip",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e035",
+    "description":"lightning strike on tip",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e036",
+    "description":"abnormal vibration C",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e037",
+    "description":"cracks in the bearing of rotor",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e038",
+    "description":"corrosion of pins in bearings of rotor",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e039",
+    "description":"abrasive wear in bearings of rotor",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e040",
+    "description":"piting in bearing of rotor",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e041",
+    "description":"deformation of face and rolling element in bearings of rotor",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e042",
+    "description":"lubrication fault in bearings of rotor",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e043",
+    "description":"clearance loosening at root (hub)",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e044",
+    "description":"cracks in the hub",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e045",
+    "description":"surface roughness in the hub",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e046",
+    "description":"mass imbalance in the hub",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  },
+  {
+    "tag":"e047",
+    "description":"fault in pitch adjustment",
+    "prob_type":"constant",
+    "prob_args":[
+      0.001
+    ],
+    "cost":100,
+    "notes":"Garcia Marquez all constant all arbitrary",
+    "state":false,
+    "t0":0
+  }
+]

@@ -1,0 +1,18 @@
+tag,description,prob_type,prob_args,cost,notes
+e048,Abnormal vibration G,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e049,Cracks,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e050,Imbalance,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e051,Asymmetry,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e052,Air-Gap eccentricities,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e053,Broken bars,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e054,Dynamic eccentricity,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e055,Sensor Ta error,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e056,Temperature above limit,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e057,Short circuit (generator),constant,0.001,100,Garcia Marquez all constant all arbitrary
+e058,Open circuit (generator),constant,0.001,100,Garcia Marquez all constant all arbitrary
+e059,Short circuit (electronics),constant,0.001,100,Garcia Marquez all constant all arbitrary
+e060,Open circuit (electronics),constant,0.001,100,Garcia Marquez all constant all arbitrary
+e061,Gate drive circuit,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e062,Corrosion,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e063,Dirt,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e064,Terminals damage,constant,0.001,100,Garcia Marquez all constant all arbitrary

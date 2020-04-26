@@ -1,0 +1,14 @@
+tag,descripion,gate_type,children,notes
+g003,Electrical subsystem failure,OR,g031 g032,Garcia Marquez electrical
+g031,Critical generator failure,AND,g033 g034,Garcia Marquez electrical
+g032,Power electronics and electric controls failure,AND,g041 g042,Garcia Marquez electrical
+g033,Mechanical failure (generator),OR,g035 g036,Garcia Marquez electrical
+g034,Electrical failure (generator),OR,e057 e058,Garcia Marquez electrical
+g035,Bearing generator failure,AND,e048 g037,Garcia Marquez electrical
+g036,Rotor and stator failure,AND,g038 g039,Garcia Marquez electrical
+g037,Bearing generator fault,OR,e049 e050 e051,Garcia Marquez electrical
+g038,Rotor and stator fault,OR,e052 e053 e054,Garcia Marquez electrical
+g039,Abnormal signals A,OR,g040 e048,Garcia Marquez electrical
+g040,Overheating generator,AND,e055 e056,Garcia Marquez electrical
+g041,Electrical fault (power electronics),OR,e059 e060 e061,Garcia Marquez electrical
+g042,Mechanical fault (power electronics),OR,e062 e063 e064,Garcia Marquez electrical

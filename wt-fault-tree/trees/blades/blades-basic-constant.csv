@@ -1,0 +1,34 @@
+tag,description,prob_type,prob_args,cost,notes
+e015,high wind speed/turbulance,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e016,blade angle asymmetry,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e017,abnormal vibration A,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e018,hydrolic motor failure,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e019,leakages in hydraulic system,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e020,over pressure in hydraulic system,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e021,corrosion in hydraulic system,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e022,vane damage,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e023,anemometer damage,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e024,abnormal vibration B,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e025,root cracks in the structure of blades ,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e026,cracks in edges of blades,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e027,erosion in edges of blades,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e028,delamination in leading edges of blades,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e029,delamination in trailing edges of blades,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e030,debonding in edges of blades,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e031,delamination in sgell,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e032,crack with structural damage (shell),constant,0.001,100,Garcia Marquez all constant all arbitrary
+e033,crack on the beam-shell joint,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e034,open tip,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e035,lightning strike on tip,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e036,abnormal vibration C,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e037,cracks in the bearing of rotor,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e038,corrosion of pins in bearings of rotor,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e039,abrasive wear in bearings of rotor,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e040,piting in bearing of rotor,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e041,deformation of face and rolling element in bearings of rotor,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e042,lubrication fault in bearings of rotor,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e043,clearance loosening at root (hub),constant,0.001,100,Garcia Marquez all constant all arbitrary
+e044,cracks in the hub,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e045,surface roughness in the hub,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e046,mass imbalance in the hub,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e047,fault in pitch adjustment,constant,0.001,100,Garcia Marquez all constant all arbitrary

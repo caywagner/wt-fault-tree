@@ -1,0 +1,15 @@
+tag,description,prob_type,prob_args,cost,notes
+e001,yaw motor failure,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e002,abnormal vibration I,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e003,abnormal vibration II,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e004,Cracks in concrete base,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e005,Welding damage,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e006,Corrosion,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e007,Lossen studs in joining foundation and first section,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e008,Loosen bolts in joining different sections,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e009,Gaps in the foundation section,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e010,Vane damage,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e011,Anemometer damage,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e012,High wind speed / turbulance,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e013,No power from supply generator,constant,0.001,100,Garcia Marquez all constant all arbitrary
+e014,No power supply from grid ,constant,0.001,100,Garcia Marquez all constant all arbitrary

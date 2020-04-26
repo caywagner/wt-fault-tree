@@ -1,0 +1,10 @@
+tag,descripion,gate_type,children,notes
+g001,foundation and tower subsystem,OR,g005 g006,Garcia Marquez tower and foundation
+g005,yaw system failure,OR,g007 g008,Garcia Marquez tower and foundation
+g006,structural failure ,AND,g009 e012 g010,Garcia Marquez tower and foundation
+g007,yaw motor failure,AND,e001 e003,Garcia Marquez tower and foundation
+g008,wrong yaw angle,AND,g011 e003,Garcia Marquez tower and foundation
+g009,severe strucural fault (foundation and tower),AND,e002 g012,Garcia Marquez tower and foundation
+g010,no electric power for yaw motor,AND,e013 e014,Garcia Marquez tower and foundation
+g011,meteorological unit failure,OR,e010 e011,Garcia Marquez tower and foundation
+g012,structural fault (foundation and tower),OR,e004 e005 e006 e007 e008 e009,Garcia Marquez tower and foundation

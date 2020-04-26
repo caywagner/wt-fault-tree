@@ -1,0 +1,20 @@
+tag,descripion,gate_type,children,notes
+g002,blades subsystem,OR,g013 g025,Garcia Marquez blades
+g013,Severe blade failure,AND,g014 e015,Garcia Marquez blades
+g014,Blade failure,OR,g015 g016,Garcia Marquez blades
+g015,Pitch system failure,OR,g017 e016 g018,Garcia Marquez blades
+g016,Structural failure of blades,AND,g021 e024,Garcia Marquez blades
+g017,Hydraulic system failure,AND,g019 e017,Garcia Marquez blades
+g018,Wrong blade angle,AND,g020 e017,Garcia Marquez blades
+g019,Hydraulic system fault,OR,e018 e019 e020 e021,Garcia Marquez blades
+g020,Meteorological unit,OR,e022 e023,Garcia Marquez blades
+g021,Structural fault of blades,OR,g022 e025 g023 g024,Garcia Marquez blades
+g022,Leading and trailing edges damage,OR,e026 e027 e028 e029 e030,Garcia Marquez blades
+g023,Shell damage,OR,e031 e032 e033,Garcia Marquez blades
+g024,Tip damage,OR,e034 e035,Garcia Marquez blades
+g025,Rotor system failure,AND,g026 e036,Garcia Marquez blades
+g026,Rotor system fault,OR,g027 g028,Garcia Marquez blades
+g027,Rotor bearings fault,OR,g029 e037,Garcia Marquez blades
+g028,Rotor hub fault,OR,e043 g030 e044 e045,Garcia Marquez blades
+g029,Wear in bearings of the rotor,OR,e038 e039 e040 e041 e042,Garcia Marquez blades
+g030,Imbalance of blade system,AND,e046 e047,Garcia Marquez blades
