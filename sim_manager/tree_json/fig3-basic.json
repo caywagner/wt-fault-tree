@@ -7,8 +7,9 @@
       0.001
     ],
     "notes":null,
-    "state":true,
-    "t0":0
+    "state":false,
+    "t0":0,
+    "cost": 100
   },
   {
     "tag":"e002",
@@ -19,7 +20,8 @@
     ],
     "notes":null,
     "state":false,
-    "t0":0
+    "t0":0,
+    "cost": 100
   },
   {
     "tag":"e003",
@@ -30,7 +32,8 @@
     ],
     "notes":null,
     "state":false,
-    "t0":0
+    "t0":0,
+    "cost": 100
   },
   {
     "tag":"e004",
@@ -41,7 +44,8 @@
     ],
     "notes":null,
     "state":false,
-    "t0":0
+    "t0":0,
+    "cost": 100
   },
   {
     "tag":"e005",
@@ -52,7 +56,8 @@
     ],
     "notes":null,
     "state":false,
-    "t0":0
+    "t0":0,
+    "cost": 100
   },
   {
     "tag":"e006",
@@ -63,6 +68,7 @@
     ],
     "notes":null,
     "state":false,
-    "t0":0
+    "t0":0,
+    "cost": 100
   }
 ]

@@ -9,7 +9,11 @@ from copy import deepcopy
 from math import exp
 import copy
 
-
+"""
+1. constant 
+2. expo
+3. garcia
+"""
 
 class Fault_Tree:
     """Manage repair messages."""
@@ -20,7 +24,7 @@ class Fault_Tree:
         self.intermediate = {}
         self.intermediate_keys = []
 
-        self.cost = 0
+        # self.cost = 0
         self.profit = 0
         self.messages_send = []
         self.messages_recv = []
@@ -42,7 +46,7 @@ class Fault_Tree:
 
     def repair(self):
         for repair_item in self.messages_recv:
-            self.cost = self.cost + repair_item['cost']
+            # self.cost = self.cost + repair_item['cost']
             repair_tag = repair_item['tag']
             if 'e' in repair_tag:
                 self.basic[repair_tag]['state'] = False
@@ -61,7 +65,7 @@ class Fault_Tree:
     def get_messages(self):
         """Send messages to manager."""
         temp = deepcopy(self.messages_send)
-        print("$$$$",temp)
+        # print("$$$$",temp)
         self.messages_send.clear()
 
         return temp
@@ -108,6 +112,8 @@ class Fault_Tree:
 
     def roll_basic(self, event):
         """Handle different sorts of probabilies."""
+        if event['state'] == True:
+            return
         if event["prob_type"] == "constant":
             p = event["prob_args"][0]
             if random.random() < p:
@@ -124,8 +130,9 @@ class Fault_Tree:
         elif event["prob_type"] == "exponential":
             # TODO; exponential fomula?
             t0 = event["t0"]
-            m = event["prob_args"][0]
-            p = exp(m * (self.time - t0))
+            m = - event["prob_args"][0]
+            p = 1 - exp( 0.01 * m * (self.time - t0))
+            # print(p)
             if random.random() < p:
                 event["state"] = True
                 self.generate_error_message(event)
@@ -137,6 +144,8 @@ class Fault_Tree:
 
     def check_intermediate(self, event):
         """Check and/or of children to update state."""
+        if event['state'] == True:
+            return
         state_list = self.get_status_list(event['children'])
         event_state = self.cal_state(state_list, event['gate_type'])
         event['state'] = event_state
@@ -161,6 +170,7 @@ class Fault_Tree:
                 self.check_intermediate(self.intermediate[event])
 
             self.count_profit()
+            self.time = self.time + 1
             # TODO handle repair messages (messages_recv)
 
             # TODO iterate basic events
